@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  @apply bg-gradient-to-br from-green-50 via-white to-green-50 text-gray-800;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' opacity='0.1'%3E%3Ccircle cx='50' cy='50' r='20' fill='%232ECC71'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  transition: all 0.3s ease;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
