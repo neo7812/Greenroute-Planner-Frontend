@@ -3,7 +3,7 @@ module.exports = {
     './pages/**/*.{js,jsx}',
     './components/**/*.{js,jsx}',
   ],
-  darkMode: 'false', 
+  darkMode: 'false',
   theme: {
     extend: {
       colors: {
