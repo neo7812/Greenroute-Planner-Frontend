@@ -34,17 +34,15 @@ GreenRoute Planner is an eco-friendly route planning application designed to hel
 
    
 2.  **Install Dependencies**
-   For Frontend:
-   bash
+    a.For Frontend:
+    ```bash
+    cd Greenroute-Planner-Frontend
+    npm install
 
-   cd Greenroute-Planner-Frontend
-  npm install
-
-  For Backend:
-  bash
-
-  cd ../backend
-  npm install  
+   b.For Backend:
+   ```bash
+   cd ../backend
+   npm install  
   
 3. **Configure Environment**:
 
