@@ -34,31 +34,25 @@ GreenRoute Planner is an eco-friendly route planning application designed to hel
 
    
 2.  **Install Dependencies**
-    a.For Frontend:
     ```bash
     cd Greenroute-Planner-Frontend
     npm install
-
-   b.For Backend:
-   ```bash
-   cd ../backend
-   npm install  
+    cd ../backend
+    npm install  
   
 3. **Configure Environment**:
 
-Create a .env file in the backend directory:
-
-ORS_API_KEY=Your_ORS_API_Key
-PORT=5000
+   Create a .env file in the backend directory:
+   ```bash
+   ORS_API_KEY=Your_ORS_API_Key
+   PORT=5000
 
 
 4. **Run the Project**
-:Start the Backend:bash
+```bash
 
 cd ../backend
 npm start
-
-Start the Frontend:bash
 
 cd ../Greenroute-Planner-Frontend
 npm run dev --port 3003
